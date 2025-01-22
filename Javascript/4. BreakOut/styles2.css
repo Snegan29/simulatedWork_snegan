@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: white;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.grid {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    background-color: #222;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+.block {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: orange;
+}
+
+.paddle {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: cyan;
+    bottom: 0;
+    left: 250px;
+}
+
+.ball {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+}
